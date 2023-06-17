@@ -141,3 +141,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# models
+models/
+.pth
+
+# datasets/
+datasets/
+.jsonl
+
