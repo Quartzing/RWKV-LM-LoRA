@@ -1,6 +1,7 @@
 #!/bin/bash
 source scripts/common.sh
 
+# cd  ~/train/RWKV-LM-LoRA/RWKV-v4neo
 cd RWKV-v4neo
 python train.py \
     --load_model "$MODEL_PATH/RWKV-4-Raven-3B-v10x-Eng49-Chn50-Other1-20230423-ctx4096.pth" \
